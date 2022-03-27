@@ -13,4 +13,5 @@ public class DropSpawner : MonoBehaviour
             Instantiate(Drops[i], transform.position, Quaternion.identity);
         }
     }
+    
 }
